@@ -49,6 +49,7 @@ For handwritten letter checking via picture:
 
 ## TODO:
 - Implement a gallery screen to view images saved during input processing.
+- Upload app screenshots to this repo.
 
 
 

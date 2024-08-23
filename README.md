@@ -6,6 +6,7 @@ This formed half of my 3rd year project, which was an Android app to enhance han
 
 ## Installation
 .unitypackage not yet uploaded, ignore below.
+
 The repo includes a very barebones .unitypackage file. This consists of only the scripts and Scene assets.
 
 1. Download the .unitypackage file.

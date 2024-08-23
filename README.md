@@ -25,7 +25,7 @@ ARCore was used in the original project, and has been kept in this project to ut
 
 ### Models
 - The ONNX model should be assigned to the `Sentis` GameObject as the 'Model Asset'. This object can be found in the Hierarchy in both scenes.
-- Models used should be trained on the EMNIST dataset if `TextureProcessor.cs` is to be used. Models are not provided in this repo, but I suggest using the [MNIST-12 model for digits provided by ONNX](https://github.com/onnx/models/tree/main/validated/vision/classification/mnist) for testing. Models may have different input tensors, so the shape should be modified to match this in `ClassifyHandwriting.cs`. For example:
+- Models used should be trained on the EMNIST dataset if `TextureProcessor.cs` is to be used. Models are not provided in this repo, but I suggest using the [MNIST-12 model for digits provided by ONNX](https://github.com/onnx/models/tree/main/validated/vision/classification/mnist) for testing. Models may have different input tensor shapes, so the shape should be modified to match this in `ClassifyHandwriting.cs`. For example:
     - For the MNIST-12 model with input (1, 1, 28, 28), it is  `shape = new TensorShape(1, 1, 28, 28);`
     - For a model that takes input (unk_25, 28, 28, 1), the appropriate shape is `shape = new TensorShape(1, 28, 28, 1);`.
     

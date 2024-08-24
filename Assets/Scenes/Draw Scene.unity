@@ -1747,7 +1747,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06df85cf7d648b84fbd185ccea210162, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  modelAsset: {fileID: 5022602860645237092, guid: 8fe0682cc57100f4189415be9639b3e0, type: 3}
+  modelAsset: {fileID: 0}
   results: []
 --- !u!4 &1508947067
 Transform:

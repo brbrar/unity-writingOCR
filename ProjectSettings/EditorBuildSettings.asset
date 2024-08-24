@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Check Scene.unity
     guid: d8834959bc7e71d4e96cac91980039a6
+  - enabled: 1
+    path: Assets/Scenes/Gallery Scene.unity
+    guid: 2de3c460742b7d94eb16ee5656bd67ff
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 9eb740d06dcf5e34a8cb5d625cd79c21, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: fbc4a5225776ccb45b73b36fbbf66cd8, type: 2}

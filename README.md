@@ -1,5 +1,5 @@
 # unity-writingOCR
-Simple Unity app which showcases Unity Sentis for OCR. Includes the options to draw/write on-screen or take a picture of handwriting.
+Template code for simple Unity app to showcase Unity Sentis for OCR. Includes the options to draw/write on-screen or take a picture of handwriting.
 This formed half of my 3rd year project, which was an Android app to enhance handwritten letter formation learning by implementing AR for teaching and
 **ML to check handwritten letters**. Thus, this project is set up for models trained on the EMNIST dataset, including all the processing for inputs.
 
